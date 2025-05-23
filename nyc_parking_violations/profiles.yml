@@ -1,0 +1,9 @@
+nyc_parking_violations:
+  outputs:
+   dev:
+     type: duckdb
+     path: "C:/Users/p_trybus/Downloads/dbt_project/data/nyc_parking_violations.db"
+   prod:
+     type: duckdb
+     path: "prod_nyc_parking_violations.db"
+  target: devC:/Users/p_trybus/Downloads/dbt_project/data/
